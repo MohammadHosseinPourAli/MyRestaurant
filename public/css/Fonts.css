@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'WorkSans';
+    src: url('/Fonts/Work_Sans/WorkSans-VariableFont_wght.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'PlayWrite';
+    src: url('/Fonts/Playwrite/PlaywriteCA-VariableFont_wght.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Satisfy';
+    src: url('/Fonts/Satisfy/Satisfy-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
