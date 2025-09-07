@@ -37,8 +37,11 @@
     </section>
     <section>
         <form action="{{route('order.store')}}" method="post">
+            @csrf
             @yield("mainFood")
             @yield("drinks")
+            @yield("dessert")
+            @yield("appetizer")
             <br><br><br><br>
             <center>
                 <input type="submit" value="Submit order" class="submitBtn">

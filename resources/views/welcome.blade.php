@@ -62,5 +62,5 @@
         <span class="text-part right">come to</span>
     </div>
     <h1 style="color: #e3e3e0; font-family: WorkSans; margin-left: 40%; font-size: xxx-large">My Restaurant</h1>
-    <a href="/order" style="color: #ff4433; font-size: larger; margin-left: 48%">order food</a>
+    <a href="{{route('order')}}" style="color: #ff4433; font-size: larger; margin-left: 48%; text-decoration: none; outline: none;">order food</a>
 @endsection

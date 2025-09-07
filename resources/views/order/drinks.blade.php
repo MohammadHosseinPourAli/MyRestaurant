@@ -15,7 +15,7 @@
                 <p style="font-family: WorkSans">ingredients: {{$ingredients}}</p>
                 <h3>Count:</h3>
                 <input type="button" class="btn-decrease" data-id="{{$food->id}}" style="height: 10%; background-color: red; width: 15%;" value="-">
-                <input type="text" class="count-box" data-id="{{$food->id}}" style="width: 30%; height: 10%; text-align: center;" value="{{session('foodCount')[$food->id] ?? 0}}" readonly>
+                <input type="text" name="{{$food->id}}Count" class="count-box" data-id="{{$food->id}}" style="width: 30%; height: 10%; text-align: center;" value="{{session('foodCount')[$food->id] ?? 0}}" readonly>
                 <input type="button" class="btn-increase" data-id="{{$food->id}}" style="height: 10%; background-color: #09bf03; width: 15%;" value="+">
             </center>
         </div>
